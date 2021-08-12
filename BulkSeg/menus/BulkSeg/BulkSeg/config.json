@@ -1,0 +1,58 @@
+{
+    "name": "CellposeUnet",
+    "n_gpu": 1,
+
+    "arch": {
+        "type": "CPnet",
+        "args": {
+            "nout": 3,
+            "kernel_size": 3,
+            "residual_on": 1,
+            "style_on": 1,
+            "concatenation": 0
+        }
+    },
+    "data_loader": {
+        "type": "CellposeDataLoader",
+        "args":{
+            "data_dir": "data/cellpose/wholedata",
+            "training": true,
+            "channel": 1,
+            "batch_size": 8,
+            "shuffle": false,
+            "validation_split": 0.0,
+            "num_workers": 2
+        }
+    },
+    "optimizer": {
+        "type": "SGD",
+        "args":{
+            "lr": 0.2,
+            "weight_decay": 0.00001,
+            "momentum": 0.9
+        }
+    },
+    "loss": "cellpose_loss",
+    "metrics": [
+        "iou"
+    ],
+    "lr_scheduler": {
+        "type": "CosineAnnealingLR",
+        "args": {
+            "T_max": 10,
+            "eta_min": 0.0
+        }
+    },
+    "trainer": {
+        "epochs": 1000,
+
+        "save_dir": "saved/",
+        "save_period": 10,
+        "verbosity": 2,
+        
+        "monitor": "min val_loss",
+        "early_stop": 1000,
+
+        "tensorboard": true
+    }
+}
