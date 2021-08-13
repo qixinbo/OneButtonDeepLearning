@@ -1,5 +1,5 @@
-# GUI4DL
-This repo provides the Graphic User Interface for Deep Learning models.
+# OneButtonDeepLearning
+This repo provides the Graphic User Interface for Deep Learning models to realize "One-button" to use these models.
 In detail, it provides plugins in [imagepy](https://github.com/Image-Py/imagepy) to run the DL models.
 
 # Usage
