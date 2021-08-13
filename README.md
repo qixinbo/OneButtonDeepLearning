@@ -1,5 +1,6 @@
-# model-zoo-plgs4imagepy
-Deep Learning model zoo as plugins for imagepy
+# GUI4DL
+This repo provides the Graphic User Interface for Deep Learning models.
+In detail, it provides plugins in imagepy to run the DL models.
 
 # Usage
 Just copy the model folder, and place it in the imagepy/plugins folder.
