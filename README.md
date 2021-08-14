@@ -5,9 +5,7 @@ In detail, it provides plugins in [imagepy](https://github.com/Image-Py/imagepy)
 # Usage
 Just copy the model folder, and place it in the imagepy/plugins folder.
 Then the menu for this model will appear in the imagepy menu bar.
-## Attention
-For some algorithms, you may need to download the pretrained weights file for the model. 
-For the detaied information, please refer to the README document in the corresponding folder.
+只需将要使用的模型文件夹复制到imagepy/plugins文件夹下即可。
 
 # Current available models
 
