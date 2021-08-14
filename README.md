@@ -19,6 +19,6 @@ Then the menu for this model will appear in the imagepy menu bar.
 
 ![cellpose-demo](Cellpose/menus/Cellpose/demo.png)
 
-## bulkseg
-[bulkseg](https://github.com/qixinbo/BulkSeg) which is inspired by Cellpose, is a fast and generalist algorithm for segmenting bulk-like objects.
+## BulkSeg
+[BulkSeg](https://github.com/qixinbo/BulkSeg) which is inspired by Cellpose, is a fast and generalist algorithm for segmenting bulk-like objects.
 ![bulkseg-demo](BulkSeg/menus/BulkSeg/demo.png)
