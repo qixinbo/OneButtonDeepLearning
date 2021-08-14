@@ -14,6 +14,11 @@ Then the menu for this model will appear in the imagepy menu bar.
 
 ![yolov5-demo](YOLOv5/menus/YOLOv5/demo.png)
 
-## BulkSeg
-[BulkSeg](BulkSeg/menus/BulkSeg/README.md) is a unified U-net algorithm for segmenting bulk-like objects.
+## Cellpose
+[Cellpose](https://github.com/MouseLand/cellpose) is a generalist algorithm for cell and nucleus segmentation.
+
+![cellpose-demo](Cellpose/menus/Cellpose/demo.png)
+
+## bulkseg
+[bulkseg](https://github.com/qixinbo/BulkSeg) which is inspired by Cellpose, is a fast and generalist algorithm for segmenting bulk-like objects.
 ![bulkseg-demo](BulkSeg/menus/BulkSeg/demo.png)
