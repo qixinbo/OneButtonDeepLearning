@@ -3,10 +3,14 @@ This repo provides the Graphic User Interface for Deep Learning models to realiz
 In detail, it provides plugins in [imagepy](https://github.com/Image-Py/imagepy) to run the DL models.
 
 # Usage
-Just copy the model folder, and place it in the imagepy/plugins folder.
+Download the model folder, and place it in the `imagepy/plugins` folder.
 Then the menu for this model will appear in the imagepy menu bar.
-只需将要使用的模型文件夹复制到imagepy/plugins文件夹下即可。
-（目前版本还未自动安装模型依赖，如遇no module named xxx，只需pip install xxx即可）
+只需将要使用的模型文件夹复制到`imagepy/plugins`文件夹下，再次启动ImagePy后即可在菜单栏看到该算法。
+## Optional 
+If the environment is not configured for the model, just enter its `menus` folder, and run:
+~~~~
+pip install -r requirments.txt
+~~~~ 
 
 # Current available models
 
