@@ -1,15 +1,19 @@
 # OneButtonDeepLearning
 This repo provides the Graphic User Interface for Deep Learning models to realize "One-button" to use these models.
-In detail, it provides plugins in [imagepy](https://github.com/Image-Py/imagepy) to run the DL models.
+In detail, it provides plugins in [ImagePy](https://github.com/Image-Py/imagepy) to run the DL models.
+
+让深度学习算法触手可及、一键调用，不必每次在命令行进行复杂配置。
 
 # Usage
 Download the model folder, and place it in the `imagepy/plugins` folder.
 Then the menu for this model will appear in the imagepy menu bar.
+
 只需将要使用的模型文件夹复制到`imagepy/plugins`文件夹下，再次启动ImagePy后即可在菜单栏看到该算法。
+
 ## Optional 
 If the environment is not configured for the model, just enter its `menus` folder, and run:
 ~~~~
-pip install -r requirments.txt
+pip install -r requirements.txt
 ~~~~ 
 
 # Current available models
