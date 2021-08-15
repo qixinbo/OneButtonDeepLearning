@@ -10,6 +10,11 @@ Then the menu for this model will appear in the imagepy menu bar.
 
 # Current available models
 
+## OCR
+[PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) aims to create multilingual, awesome, leading, and practical OCR tools that help users train better models and apply them into practice.
+
+![ocr-demo](OCR/menus/OCR/demo.png)
+
 ## YOLOv5
 [YOLOv5](https://github.com/ultralytics/yolov5) is a family of compound-scaled object detection models trained on the COCO dataset.
 
