@@ -41,3 +41,7 @@ pip install -r requirements.txt
 ## BulkSeg
 [BulkSeg](https://github.com/qixinbo/BulkSeg) which is inspired by Cellpose, is a fast and generalist algorithm for segmenting bulk-like objects.
 ![bulkseg-demo](BulkSeg/menus/BulkSeg/demo.png)
+
+## DeepLab
+[DeepLab](https://github.com/pytorch/vision/blob/master/torchvision/models/segmentation/deeplabv3.py) is a state-of-art deep learning model for semantic image segmentation, where the goal is to assign semantic labels (e.g., person, dog, cat and so on) to every pixel in the input image.
+![deeplab-demo](DeepLab/menus/DeepLab/demo.png)
