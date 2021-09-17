@@ -28,6 +28,11 @@ pip install -r requirements.txt
 
 ![yolov5-demo](YOLOv5/menus/YOLOv5/demo.png)
 
+## Image Matting
+[RVM](https://github.com/PeterL1n/RobustVideoMatting) is specifically designed for robust human video matting. Unlike existing neural models that process frames as independent images, RVM uses a recurrent neural network to process videos with temporal memory. RVM can perform matting in real-time on any videos without additional inputs. It achieves 4K 76FPS and HD 104FPS on an Nvidia GTX 1080 Ti GPU.
+
+![rvm-demo](ImageMatting/menus/ImageMatting/demo.png)
+
 ## Face Detection
 [InsightFace](https://github.com/deepinsight/insightface) is an open source 2D&3D deep face analysis toolbox, and efficiently implements a rich variety of state of the art algorithms of face recognition, face detection and face alignment, which optimized for both training and deployment.
 
