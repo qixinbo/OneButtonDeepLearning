@@ -35,6 +35,11 @@ pip install -r requirements.txt
 
 ![rvm-demo](ImageMatting/menus/PortraitMatting/demo.png)
 
+### Universal Matting
+[FBA Matting](https://github.com/MarcoForte/FBA_Matting) is an interactive matting. It needs a trimap as an input, which can be easily realized with the ImagePy software.
+
+![fba-demo](ImageMatting/menus/UniversalMatting/demo.png)
+
 ## Face Detection
 [InsightFace](https://github.com/deepinsight/insightface) is an open source 2D&3D deep face analysis toolbox, and efficiently implements a rich variety of state of the art algorithms of face recognition, face detection and face alignment, which optimized for both training and deployment.
 
