@@ -53,6 +53,8 @@ pip install -r requirements.txt
 ## Image Restoration
 [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN) aims at developing Practical Algorithms for General Image Restoration.
 
+![esrgan-demo](ImageRestoration/menus/ImageRestoration/demo.png)
+
 ## BulkSeg
 [BulkSeg](https://github.com/qixinbo/BulkSeg) which is inspired by Cellpose, is a fast and generalist algorithm for segmenting bulk-like objects.
 ![bulkseg-demo](BulkSeg/menus/BulkSeg/demo.png)
