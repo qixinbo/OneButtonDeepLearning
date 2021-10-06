@@ -40,6 +40,10 @@ pip install -r requirements.txt
 
 ![fba-demo](ImageMatting/menus/UniversalMatting/demo.png)
 
+### Salient Object Detection
+[U2-Net](https://github.com/xuebinqin/U-2-Net) does not need a trimap to detect the salient object in the image.
+![sod](ImageMatting/menus/U2Net/demo1.png)
+
 ## Face Detection
 [InsightFace](https://github.com/deepinsight/insightface) is an open source 2D&3D deep face analysis toolbox, and efficiently implements a rich variety of state of the art algorithms of face recognition, face detection and face alignment, which optimized for both training and deployment.
 
@@ -49,6 +53,11 @@ pip install -r requirements.txt
 [SimSwap](https://github.com/neuralchen/SimSwap) is An Efficient Framework For High Fidelity Face Swapping.
 
 ![faceswap-demo](FaceSwap/menus/FaceSwap/demo.png)
+
+## Portrait Generation
+[U2-Net](https://github.com/xuebinqin/U-2-Net) can also be used for human portrait drawing.
+
+![portrait](ImageMatting/menus/U2Net/demo2.png)
 
 ## Cellpose
 [Cellpose](https://github.com/MouseLand/cellpose) is a generalist algorithm for cell and nucleus segmentation.
