@@ -6,6 +6,11 @@
 
 The paper can be downloaded from [[Arxiv]](https://arxiv.org/pdf/2106.06340v1.pdf) [[ACM DOI]](https://dl.acm.org/doi/10.1145/3394171.3413630) 
 
+## Weights files download
+I have packaged all the weights files into one folder, just download it and paste the directories as the software guides.
+Link: https://pan.baidu.com/s/19gb_-z8jxS88vyoo9hWdXA 
+Code: swap 
+
 ## Attention
 ***This project is for technical and academic use only. Please do not apply it to illegal and unethical scenarios.***
 

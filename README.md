@@ -45,6 +45,11 @@ pip install -r requirements.txt
 
 ![face-demo](FaceAnalysis/menus/Face/demo.png)
 
+## Face Swap
+[SimSwap](https://github.com/neuralchen/SimSwap) is An Efficient Framework For High Fidelity Face Swapping.
+
+![faceswap-demo](FaceSwap/menus/FaceSwap/demo.png)
+
 ## Cellpose
 [Cellpose](https://github.com/MouseLand/cellpose) is a generalist algorithm for cell and nucleus segmentation.
 
