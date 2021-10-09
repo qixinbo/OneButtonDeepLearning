@@ -65,14 +65,22 @@ pip install -r requirements.txt
 ![cellpose-demo](Cellpose/menus/Cellpose/demo.png)
 
 ## Image Restoration
+### Real-ESRGAN
 [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN) aims at developing Practical Algorithms for General Image Restoration.
 
 ![esrgan-demo](ImageRestoration/menus/ImageRestoration/demo.png)
 
-## BulkSeg
+### Bringing Old Photos Back to Life
+[Old Photo Restoration](https://github.com/microsoft/Bringing-Old-Photos-Back-to-Life) is for Old Photo Restoration via Deep Latent Space Translation. It can be used to restore fuzzy images and even remove scratches.
+
+![oldimage-demo1](ImageRestoration/menus/BringOldPhotosBacktoLife/demo1.png)
+![oldimage-demo2](ImageRestoration/menus/BringOldPhotosBacktoLife/demo2.png)
+
+
+<!-- ## BulkSeg
 [BulkSeg](https://github.com/qixinbo/BulkSeg) which is inspired by Cellpose, is a fast and generalist algorithm for segmenting bulk-like objects.
 ![bulkseg-demo](BulkSeg/menus/BulkSeg/demo.png)
-
+ -->
 ## DeepLab
 [DeepLab](https://github.com/pytorch/vision/blob/master/torchvision/models/segmentation/deeplabv3.py) is a state-of-art deep learning model for semantic image segmentation, where the goal is to assign semantic labels (e.g., person, dog, cat and so on) to every pixel in the input image.
 ![deeplab-demo](DeepLab/menus/DeepLab/demo.png)
