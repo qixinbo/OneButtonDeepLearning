@@ -425,7 +425,9 @@ class RestoreScratchedImage(Simple):
         detect_model.load_state_dict(checkpoint["model_state"])
         print("detection model weights loaded")
 
-        if int(opt.gpu_ids[0]) >= 0:
+        print("opt.gpu_ids = ", opt.gpu_ids)
+
+        if len(opt.gpu_ids) > 0:
             detect_model.to(int(opt.gpu_ids[0]))
         else: 
             detect_model.cpu()
@@ -441,7 +443,7 @@ class RestoreScratchedImage(Simple):
         _, _, ow, oh = scratch_image.shape
         scratch_image_scale = detection_scale_tensor(scratch_image)
 
-        if int(opt.gpu_ids[0]) >= 0:
+        if len(opt.gpu_ids) > 0:
             scratch_image_scale = scratch_image_scale.to(int(opt.gpu_ids[0]))
         else:
             scratch_image_scale = scratch_image_scale.cpu()
