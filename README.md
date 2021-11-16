@@ -69,6 +69,7 @@ pip install -r requirements.txt
 [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN) aims at developing Practical Algorithms for General Image Restoration.
 
 ![esrgan-demo](ImageRestoration/menus/ImageRestoration/demo.png)
+![esrgan-demo1](ImageRestoration/menus/ImageRestoration/demo1.png)
 
 ### Bringing Old Photos Back to Life / 超分辨 + 去划痕
 [Old Photo Restoration](https://github.com/microsoft/Bringing-Old-Photos-Back-to-Life) is for Old Photo Restoration via Deep Latent Space Translation. It can be used to restore fuzzy images and even remove scratches.
