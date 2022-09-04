@@ -1,10 +1,10 @@
 paddlepaddle
 shapely
-scikit-image==0.17.2
-imgaug==0.4.0
+scikit-image
+imgaug
 pyclipper
 lmdb
 tqdm
 numpy
 visualdl
-opencv-contrib-python==4.2.0.32
+opencv-contrib-python
